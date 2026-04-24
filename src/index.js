@@ -1,3 +1,41 @@
+//try to deliver the .env to everywhere at the very start of the main running file
+
+// require('dotenv').config({path: './env'})  or import method
+
+import dotenv from 'dotenv'
+dotenv.config({
+    path: './env'
+})
+import connectDB from "./db/index.js";
+
+
+connectDB()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // import mongoose from "mongoose";
 // import { DB_NAME } from "./constants";
 
